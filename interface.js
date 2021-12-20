@@ -10,7 +10,7 @@ function handleClick(event) {
 
   if (handleMove(position)) {
       setTimeout(() => {
-      alert('o jogo acabou \n O vencedor foi o jogador ' + playerTime)
+      alert('o jogo acabou! \n O vencedor foi o jogador ' + playerTime)
     }, 10);
   };
   updateSquares();
